@@ -4,6 +4,9 @@
 
 int main() {
   
+  // whale, whale, whale
+  // what have we got here?
+  
   std::string input = "Turpentine and turtles.";
 
   std::vector<char> vowels;
