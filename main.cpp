@@ -16,20 +16,23 @@ int main() {
   vowels.push_back('i');
   vowels.push_back('o');
   vowels.push_back('u');
-
+  
+// whales don't consider 'y' a vowel
+  
   std::vector<char> whale_talk;
 
+  // check if each of the characters is a vowel
   for (int i = 0; i < input.size(); i++) {
     
     for (int j = 0; j < vowels.size(); j++) {
-
+// double the e's and u's
       if (input[i] == vowels[j]) {
 
         whale_talk.push_back(input[i]);
        
         if (input[i] == 'e' || input [i] == 'u') {
 
-        whale_talk.push_back(input[i]);
+        whale_talk.push_back(input[i]); 
         
         }
       
@@ -48,3 +51,5 @@ int main() {
   std::cout << "\n";
   
 }
+
+// the output for this one, (using turpentine and turtles as input), the result should be 'uueeieeauuee'
