@@ -7,7 +7,7 @@ int main() {
   // whale, whale, whale
   // what have we got here?
   
-  std::string input = "Turpentine and turtles.";
+  std::string input = "Turpentine and turtles."; // sample input
 
   std::vector<char> vowels;
 
